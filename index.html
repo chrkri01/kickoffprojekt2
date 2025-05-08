@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cybersikkerhed på Caféen</title>
+  <script src="https://kit.fontawesome.com/1c18df3eaf.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="scss/main.css" />
+  <script src="script.js" defer></script>
+</head>
+<body class="light-mode">
+  <!-- Intro med infografik -->
+  <div id="intro-screen">
+    <img src="images/info.png" alt="Infografik: Beskyt dig på offentlige netværk" class="intro-img" />
+    <button id="startBtn">▶ Videre</button>
+  </div>
+
+  <!-- Interaktiv fortælling -->
+  <main id="main-content" style="display: none;">
+    <header>
+      <div class="btn-group">
+        <button id="btn-dark" aria-label="Aktivér mørkt tema">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="btn-light" aria-label="Aktivér lyst tema">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+      </div>
+    </header>
+
+    <h1>Cybersikkerhed på Caféen</h1>
+    <div id="story-container"></div>
+  </main>
+</body>

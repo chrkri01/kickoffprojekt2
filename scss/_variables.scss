@@ -1,0 +1,27 @@
+// Farver
+$color-bg-light: #EEE6DE;     
+$color-text-light: #222222;
+$color-text-dark: #EEEEEE;
+$shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+
+$color-accent: #B8654C;      
+$color-accent-text: #ffffff;
+$color-accent-hover: #A0543D; 
+
+$primary: #D08E75;           
+$secondary: #E8A862;        
+$tertiary: #181106;         
+
+$bg-light: radial-gradient(circle at center, $primary, $secondary);
+
+$bg-dark: radial-gradient(circle at center, $tertiary, $tertiary, $primary);
+
+
+// Typografi
+$font-base: 'Arial', sans-serif;
+$font-size-base: 1rem;
+$font-size-large: 1.125rem;
+
+// Layout
+$border-radius: 10px;
+$space: 10px;
